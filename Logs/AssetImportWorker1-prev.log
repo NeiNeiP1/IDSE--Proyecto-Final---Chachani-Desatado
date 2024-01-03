@@ -1,0 +1,340 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.32f1 (3b9dae9532f5) revision 3906990'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'es' Physical Memory: 16318 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.32f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+D:/JUegos/Terror2
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+64006
+Successfully changed project path to: D:/JUegos/Terror2
+D:/JUegos/Terror2
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [29144] Host "[IP] 192.168.18.20 [Port] 0 [Flags] 2 [Guid] 2235780057 [EditorId] 2235780057 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-S2UKGHK) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [29144] Host "[IP] 192.168.18.20 [Port] 0 [Flags] 2 [Guid] 2235780057 [EditorId] 2235780057 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-S2UKGHK) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with {0} workers.
+Refreshing native plugins compatible for Editor in 86.18 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.32f1 (3b9dae9532f5)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.32f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/JUegos/Terror2/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1650 (ID=0x1f82)
+    Vendor:   NVIDIA
+    VRAM:     3950 MB
+    Driver:   31.0.15.4584
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.32f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.32f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.32f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56096
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.32f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.32f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.32f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.015343 seconds.
+Native extension for WindowsStandalone target not found
+[usbmuxd] Start listen thread
+[usbmuxd] Listen thread started
+Native extension for iOS target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 331 ms
+Refreshing native plugins compatible for Editor in 84.40 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.072 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1073ms)
+		BeginReloadAssembly (111ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (846ms)
+			LoadAssemblies (108ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (124ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (30ms)
+			SetupLoadedEditorAssemblies (646ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (437ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (84ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (81ms)
+				ProcessInitializeOnLoadMethodAttributes (43ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.009781 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 78.13 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Completed reload, in  1.721 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1722ms)
+		BeginReloadAssembly (152ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (21ms)
+		EndReloadAssembly (1458ms)
+			LoadAssemblies (131ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (315ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (56ms)
+			SetupLoadedEditorAssemblies (950ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (32ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (78ms)
+				BeforeProcessingInitializeOnLoad (96ms)
+				ProcessInitializeOnLoadAttributes (713ms)
+				ProcessInitializeOnLoadMethodAttributes (18ms)
+				AfterProcessingInitializeOnLoad (14ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 1.43 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4092 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 76 unused Assets / (22.2 MB). Loaded Objects now: 4537.
+Memory consumption went from 223.1 MB to 200.9 MB.
+Total: 6.464800 ms (FindLiveObjects: 0.319500 ms CreateObjectMapping: 0.253800 ms MarkObjects: 2.491600 ms  DeleteObjects: 3.398600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 64907.272207 seconds.
+  path: Assets/Characters FBX/Texture/Ch33_1001_Specular 2.png
+  artifactKey: Guid(f9f5cb5d416278446809f40cf97424a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Characters FBX/Texture/Ch33_1001_Specular 2.png using Guid(f9f5cb5d416278446809f40cf97424a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5acb92c72e209e21dfde49b636ca4e0') in 0.157440 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/SlimUI/Tech Menu/Graphics/Corner X.png
+  artifactKey: Guid(5dba1fed4538ebd4eb9f68c83fd7dde1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/SlimUI/Tech Menu/Graphics/Corner X.png using Guid(5dba1fed4538ebd4eb9f68c83fd7dde1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc413ea52de47a63d3d4e81e9a43377e') in 0.035001 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Characters FBX/Texture/Ch33_1001_Diffuse 2.png
+  artifactKey: Guid(1c4bac89a0947434a8ddbeb4a72d9337) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Characters FBX/Texture/Ch33_1001_Diffuse 2.png using Guid(1c4bac89a0947434a8ddbeb4a72d9337) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c6faf0672d00f3ec2cc4aef7545dac9') in 0.107962 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Little_GhostLP(FREE)/Texture/Checker yellow black.png
+  artifactKey: Guid(eb1a62245a4aa754fa1601381f3a17f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Little_GhostLP(FREE)/Texture/Checker yellow black.png using Guid(eb1a62245a4aa754fa1601381f3a17f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14d9a0b932565d7fd33900b0b82a3e89') in 0.063045 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/InnerDriveStudios/DruidTome/Textures/DruidTome_Normal.png
+  artifactKey: Guid(9eeeedddfc20be44b9a5cee325b6d7df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/InnerDriveStudios/DruidTome/Textures/DruidTome_Normal.png using Guid(9eeeedddfc20be44b9a5cee325b6d7df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd52559569946c42ca7ccefcd1e05d8b8') in 0.119041 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/SharedAssets/Materials/Textures/gridTexture.png
+  artifactKey: Guid(178121dcf42de421385195f200d9a001) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/SharedAssets/Materials/Textures/gridTexture.png using Guid(178121dcf42de421385195f200d9a001) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9fe9487cab2b10977fe4aaab5f6c3c3e') in 0.064185 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Characters FBX/Texture/Ch16_1002_Specular.png
+  artifactKey: Guid(ca52fe5f42602ab40a4afbddd1450db8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Characters FBX/Texture/Ch16_1002_Specular.png using Guid(ca52fe5f42602ab40a4afbddd1450db8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e277851d33ac152bb91dc6eadc9f2088') in 0.104237 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/InnerDriveStudios/DruidTome/Textures/DruidTome_Occlusion.png
+  artifactKey: Guid(9a7fa7f26d60e0f499bfd103d4e63999) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/InnerDriveStudios/DruidTome/Textures/DruidTome_Occlusion.png using Guid(9a7fa7f26d60e0f499bfd103d4e63999) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ce730659e773476eb853806635f6d05') in 0.094330 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Characters FBX/Texture/Ch16_1001_Normal.png
+  artifactKey: Guid(c64ce2de611db734ea9f335bf0e04cde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Characters FBX/Texture/Ch16_1001_Normal.png using Guid(c64ce2de611db734ea9f335bf0e04cde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd88a02519eac59c6ae32c9e0ee7344f') in 0.094744 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Characters FBX/Texture/Ch33_1001_Diffuse.png
+  artifactKey: Guid(54f93b097b301eb4a9498626fc1a502a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Characters FBX/Texture/Ch33_1001_Diffuse.png using Guid(54f93b097b301eb4a9498626fc1a502a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab6a37e4147ed525521568b5d870650b') in 0.123545 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Characters FBX/Texture/Ch16_1002_Glossiness.png
+  artifactKey: Guid(07469d621cd2b214fb44a7a6a4f3ad58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Characters FBX/Texture/Ch16_1002_Glossiness.png using Guid(07469d621cd2b214fb44a7a6a4f3ad58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '622a90b4e5396ddbb3ec7f38d04edd12') in 0.082976 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Electronic Highway Sign SDF.asset
+  artifactKey: Guid(dc36b3fdc14f47ebb36fd484a67e268a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Electronic Highway Sign SDF.asset using Guid(dc36b3fdc14f47ebb36fd484a67e268a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9aae05bf672a0eb95063a33f649d6af') in 0.232617 seconds 
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Characters FBX/Texture/Ch33_1002_Normal 1.png
+  artifactKey: Guid(59711313e160aeb40a82de0a15958fdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Characters FBX/Texture/Ch33_1002_Normal 1.png using Guid(59711313e160aeb40a82de0a15958fdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6bf35fd423cb12a11ff1b83870f21f5') in 0.018430 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/SlimUI/Tech Menu/Graphics/Corner Back.png
+  artifactKey: Guid(e7d2e721f91825848b85bbd1391efa20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/SlimUI/Tech Menu/Graphics/Corner Back.png using Guid(e7d2e721f91825848b85bbd1391efa20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb7829b921d2e10f2a513d59e3e4f711') in 0.039164 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Characters FBX/Texture/Ch33_1001_Specular.png
+  artifactKey: Guid(378e3a159b52ea541a1df3631b10cdf1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Characters FBX/Texture/Ch33_1001_Specular.png using Guid(378e3a159b52ea541a1df3631b10cdf1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e54ef195f49348cb7362963dd63047f') in 0.071750 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/SlimUI/Tech Menu/Graphics/DownIndicator.png
+  artifactKey: Guid(263381c1a0761c543a87f29817338d23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/SlimUI/Tech Menu/Graphics/DownIndicator.png using Guid(263381c1a0761c543a87f29817338d23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fd5782b46938d3fd93ccb46df54f5a8') in 0.106158 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Characters FBX/Texture/Ch16_1002_Diffuse.png
+  artifactKey: Guid(e1dd1074a8052924d9e6e1ecd37cb01c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Characters FBX/Texture/Ch16_1002_Diffuse.png using Guid(e1dd1074a8052924d9e6e1ecd37cb01c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a1761d0c977de9115f92f758ff062b1') in 0.071180 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/SharedAssets/Materials/Textures/Checkers_CO.tif
+  artifactKey: Guid(0dbde4b748147ad46bb2c40602273db7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/SharedAssets/Materials/Textures/Checkers_CO.tif using Guid(0dbde4b748147ad46bb2c40602273db7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61bb39f7ddd078a11606f8f7233c9dc8') in 0.099336 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Characters FBX/Texture/Ch33_1002_Diffuse 2.png
+  artifactKey: Guid(370f04014e014cc429182bc03d1f14fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Characters FBX/Texture/Ch33_1002_Diffuse 2.png using Guid(370f04014e014cc429182bc03d1f14fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e233777522a6e7d2f2967ec2320590b') in 0.074245 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/SlimUI/Tech Menu/Blue Cave.jpg
+  artifactKey: Guid(4a20466c71187bb4fae78a47499b4c9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/SlimUI/Tech Menu/Blue Cave.jpg using Guid(4a20466c71187bb4fae78a47499b4c9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61d94d4629cc94345b134e09ab66c611') in 0.318999 seconds 
+Number of asset objects unloaded after import = 3
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
