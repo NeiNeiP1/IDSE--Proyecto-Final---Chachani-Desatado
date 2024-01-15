@@ -1,0 +1,43 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class ClickLinterna : MonoBehaviour
+{
+    public GameObject inttext,flashlight_table,flashlight_hand;
+    public AudioSource pickup;
+    public bool interactable; 
+    // Start is called before the first frame update
+
+void OnTriggerStay(Collider other){
+    if  (other.CompareTag("MainCamera")){
+        inttext.SetActive(true);
+        interactable=true;
+    }
+}
+void OnTriggerExit(Collider other){
+    if(other.CompareTag("MainCamera")){
+        inttext.SetActive(false);
+        interactable=false;
+    }
+}
+
+    void Start()
+    {
+        
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+        if(interactable==true){
+            if(Input.GetKeyDown(KeyCode.E)){
+                inttext.SetActive(false);
+                interactable=false;
+                //click
+                flashlight_hand.SetActive(true);
+                flashlight_table.SetActive(false);
+            }
+        }
+    }
+}
